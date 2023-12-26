@@ -163,7 +163,6 @@ nav .fa {
 
 .about-us-area .content-column {
 	background: #f7f7f7 none repeat scroll 0 0;
-	height: 527px;
 	overflow: hidden;
 	padding: 80px 15px 50px 65px;
 }
@@ -297,6 +296,12 @@ p {
 	padding-bottom: 73px;
 }
 
+
+ @media screen and (max-width: 768px){
+	.about-us-area .content-column {
+		padding-left: 32px;
+	}
+ }
 @media screen and (max-width: 550px) {
 	.logo {
 		width: 270px;
